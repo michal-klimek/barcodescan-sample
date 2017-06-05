@@ -1,5 +1,10 @@
-<ion-view view-title="Search">
-  <ion-content>
-    <h1>Search</h1>
+<ion-view view-title="BarcodeScan">
+  <ion-content class="padding">
+    <h4>Here you can test how the plugin works with a photo taken from the device's camera</h4>
+    <button class="button" ng-click="scanBarcodes()">
+        Scan barcode's
+    </button>
+    <div ng-show="showResult()">{{scannedBarcodes}}
+      <div/>
   </ion-content>
 </ion-view>
