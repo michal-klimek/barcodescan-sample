@@ -1,25 +1,11 @@
-Ionic App Base
+IBarcodeScan Sample
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+This sample project shows how to intergrate the cordova barcode scanning plugin into the main app project. Please carefully read the *package.json* file and the *config.xml* file. The former contains information about required cordova plugins (*cordova-plugin-file*, *cordova-test-framework*). The *cordova-plugin-camera* is used for taking photos.
 
 ## Using this project
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+You can use compiled *apk* file, install it on devices that cause problems, and then check the detection results on various photos. In general scanning multiple 1D barcodes on the one image significantly lowers the probability of detecting all codes at once. Betters results can be achieved with 2D barcodes like QR Codes or Aztec Codes (which are more resistant to image distortions).
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
-```bash
-$ npm install -g ionic
-```
-
-Then run: 
-
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+## Running unit tests
+In order to run unit test just select **Start unit tests** from the "hamburger" menu. I suggest to tap *Reset App* prior to runnint tests.
