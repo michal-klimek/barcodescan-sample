@@ -1,4 +1,4 @@
-IBarcodeScan Sample
+BarcodeScan Sample
 =====================
 
 This sample project shows how to intergrate the cordova barcode scanning plugin into the main app project. Please carefully read the *package.json* file and the *config.xml* file. The former contains information about required cordova plugins (*cordova-plugin-file*, *cordova-test-framework*). The *cordova-plugin-camera* is used for taking photos.
@@ -9,3 +9,6 @@ You can use compiled *apk* file, install it on devices that cause problems, and 
 
 ## Running unit tests
 In order to run unit test just select **Start unit tests** from the "hamburger" menu. I suggest to tap *Reset App* prior to runnint tests.
+
+## APK File
+The file is attached to the Jira Task
